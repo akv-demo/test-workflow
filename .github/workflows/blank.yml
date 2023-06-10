@@ -13,3 +13,5 @@ jobs:
       - name: swap
         run: |
           sysctl vm.swapusage
+          vm_stat
+          ls -lh /private/var/vm/swapfile* 
